@@ -1,13 +1,8 @@
 # Telerik Alpha.NET Track Prep
------------------------------------
-Main repository for my prep for course
-Main used articles:
-    Introduction to programming with c#
-    myTelirkAcademy web site
 --------------------------------------
 ## Note: All the information you see here is the link from:
     - https://my.telerikacademy.com/
-    - http://www.introprogramming.info/english-intro-csharp-book/
+    - Introduction to programming with C# - http://www.introprogramming.info/english-intro-csharp-book/
 
 #### Repo structure
 1. Basics 1
