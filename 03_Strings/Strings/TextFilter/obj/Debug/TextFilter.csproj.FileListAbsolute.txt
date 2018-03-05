@@ -1,0 +1,7 @@
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\TextFilter\bin\Debug\TextFilter.exe.config
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\TextFilter\bin\Debug\TextFilter.exe
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\TextFilter\bin\Debug\TextFilter.pdb
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\TextFilter\obj\Debug\TextFilter.csprojResolveAssemblyReference.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\TextFilter\obj\Debug\TextFilter.csproj.CoreCompileInputs.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\TextFilter\obj\Debug\TextFilter.exe
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\TextFilter\obj\Debug\TextFilter.pdb

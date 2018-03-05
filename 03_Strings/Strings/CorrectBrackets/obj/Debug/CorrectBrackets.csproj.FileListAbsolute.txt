@@ -1,0 +1,7 @@
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CorrectBrackets\bin\Debug\CorrectBrackets.exe.config
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CorrectBrackets\bin\Debug\CorrectBrackets.exe
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CorrectBrackets\bin\Debug\CorrectBrackets.pdb
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CorrectBrackets\obj\Debug\CorrectBrackets.csprojResolveAssemblyReference.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CorrectBrackets\obj\Debug\CorrectBrackets.csproj.CoreCompileInputs.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CorrectBrackets\obj\Debug\CorrectBrackets.exe
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CorrectBrackets\obj\Debug\CorrectBrackets.pdb

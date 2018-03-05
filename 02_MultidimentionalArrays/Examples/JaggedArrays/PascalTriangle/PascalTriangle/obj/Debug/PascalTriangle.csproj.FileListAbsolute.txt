@@ -1,0 +1,7 @@
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\JaggedArrays\PascalTriangle\PascalTriangle\bin\Debug\PascalTriangle.exe.config
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\JaggedArrays\PascalTriangle\PascalTriangle\bin\Debug\PascalTriangle.exe
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\JaggedArrays\PascalTriangle\PascalTriangle\bin\Debug\PascalTriangle.pdb
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\JaggedArrays\PascalTriangle\PascalTriangle\obj\Debug\PascalTriangle.csprojResolveAssemblyReference.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\JaggedArrays\PascalTriangle\PascalTriangle\obj\Debug\PascalTriangle.csproj.CoreCompileInputs.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\JaggedArrays\PascalTriangle\PascalTriangle\obj\Debug\PascalTriangle.exe
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\JaggedArrays\PascalTriangle\PascalTriangle\obj\Debug\PascalTriangle.pdb

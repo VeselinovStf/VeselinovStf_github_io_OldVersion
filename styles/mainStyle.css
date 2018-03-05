@@ -1,0 +1,32 @@
+h1,
+h4,
+p,
+a {
+    text-align: center;
+}
+
+.well {
+    border-top: 10px;
+    border-bottom: 10px;
+    
+}
+
+.text-center {
+    list-style-position: inside;
+}
+
+.complete {
+    color: green;
+}
+
+.well img {
+    width: 260px;
+    height: 140px;
+  
+}
+
+img {
+    width: 220px;
+    height: 140px;
+}
+

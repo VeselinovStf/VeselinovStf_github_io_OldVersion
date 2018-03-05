@@ -1,0 +1,16 @@
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\CheckForSymmetryArrays.Tests.dll
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\CheckForSymmetryArrays.Tests.pdb
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\CheckForSymmetricArrays.exe
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\CheckForSymmetricArrays.pdb
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\CheckForSymmetricArrays.exe.config
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\obj\Debug\CheckForSymmetryArrays.Tests.csprojResolveAssemblyReference.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\obj\Debug\CheckForSymmetryArrays.Tests.csproj.CoreCompileInputs.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\obj\Debug\CheckForSymmetryArrays.Tests.dll
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\CheckForSymmetryArrays.Tests\obj\Debug\CheckForSymmetryArrays.Tests.pdb

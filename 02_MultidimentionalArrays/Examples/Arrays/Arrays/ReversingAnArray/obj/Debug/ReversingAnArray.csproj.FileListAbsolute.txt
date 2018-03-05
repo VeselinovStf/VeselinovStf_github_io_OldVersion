@@ -1,0 +1,7 @@
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\ReversingAnArray\bin\Debug\ReversingAnArray.exe.config
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\ReversingAnArray\bin\Debug\ReversingAnArray.exe
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\ReversingAnArray\bin\Debug\ReversingAnArray.pdb
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\ReversingAnArray\obj\Debug\ReversingAnArray.csprojResolveAssemblyReference.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\ReversingAnArray\obj\Debug\ReversingAnArray.csproj.CoreCompileInputs.cache
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\ReversingAnArray\obj\Debug\ReversingAnArray.exe
+H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\02_MultidimentionalArrays\Examples\Arrays\Arrays\ReversingAnArray\obj\Debug\ReversingAnArray.pdb

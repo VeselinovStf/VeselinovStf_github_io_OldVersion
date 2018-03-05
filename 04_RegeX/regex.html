@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Regex</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        img {
+            width: 220px;
+            height: 140px;
+        }
+
+        body {
+            height: 1500px;
+        }
+
+        .card-body {
+            background-color: grey;
+            color: white;
+            border-radius: 10px;
+        }
+
+        table, th, td {
+   border: 1px solid black;
+}
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html">ALL COURSES</a>
+
+                <a class="navbar-brand" href="#">Current Theme</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#theory">Theme - 1</a></li>
+                            <li><a href="#commands">Theme -1</a></li>
+                            <li><a href="regular-expressions-cheat-sheet-v2.pdf" target="_blank">Cheet Sheet</a></li>
+                            <!--<li><a href="#">Something else here</a></li>-->
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="margin-top:80px">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <h1>C# Regular Expresions</h1>
+                    <div class="col-sm-3 ">
+                        <div class="card well">
+                            <img class="card-img-top img-fluid" src="https://www.computerhope.com/jargon/r/regular-expression.gif" alt="Card image cap">
+                            <div class="card-block">
+                                <h4 class="card-title">Card title</h4>
+                                <p class="card-text">The regular expressions are a powerful tool for text processing and allow searching matches by a pattern. An example for a pattern is [A-Z0-9]+, which means not an empty series of capital Latin letters and numbers.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a target="_blank" href="http://www.introprogramming.info/english-intro-csharp-book/read-online/chapter-13-strings-and-text-processing/#_Toc362296496" class="btn btn-primary">More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card well">
+                            <img class="card-img-top img-fluid" src="http://cdn-thumbshot-ie.pearltrees.com/44/93/4493c23193d5f177b8f0bd46f4a765d1-b52square.jpg" alt="Card image cap">
+                            <div class="card-block">
+                                <h4 class="card-title">Dot Net Pearls Regex</h4>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a href="https://www.dotnetperls.com/regex" class="btn btn-primary" target="_blank">Go see Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card well">
+
+                            <img class="card-img-top img-fluid" src="http://placehold.it/220x140" alt="Card image cap">
+                            <div class="card-block">
+                                <h4 class="card-title">Tutorial</h4>
+                                <p class="card-text">Interactive tutorial.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a href="https://regexone.com/" class="btn btn-primary" target="_blank">Go DO IT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card well">
+                            <img class="card-img-top img-fluid" src="http://placehold.it/220x140" alt="Card image cap">
+                            <div class="card-block">
+                                <h4 class="card-title">Documentation</h4>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a href="https://msdn.microsoft.com/en-us/library/system.text.regularexpressions.regex(v=vs.110).aspx" class="btn btn-primary" target="_blank">Go To Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Theory section -->
+            <div id="theory" class="row text-center">
+                <h2>Theory</h2>
+                <div class="card well text-left">
+
+                    <div class="card-body well">
+                        <table >
+                        <tbody>
+                            <tr valign="top">
+                              <th width="14%"><div align="left">Character</div></th>
+                        
+                              <th width="86%">Description</th>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\ </strong></td>
+                        
+                              <td width="86%"><p>Marks the next character as either a special character
+                                or escapes a literal. For example, "n" matches the character "n". "\n" matches
+                                a newline character. The sequence "\\" matches "\" and "\(" matches "(".</p>
+                                <p>Note: double quotes may be escaped by doubling them: "&lt;a href=""...&gt;" </p></td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>^ </strong></td>
+                              <td width="86%">Depending on whether the MultiLine option is set, matches the position before the first character in a line, or the first character in the string.</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>$ </strong></td>
+                        
+                              <td width="86%">Depending on whether the MultiLine option is set, matches the position after the last character in a line, or the last character in the string.</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>* </strong></td>
+                        
+                              <td width="86%">Matches the preceding character zero or more times. For
+                                example,   "zo*" matches either "z" or "zoo".</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>+ </strong></td>
+                              <td width="86%">Matches the preceding character one or more times. For
+                                example,   "zo+" matches "zoo" but not "z".</td>
+                            </tr>
+                            <tr valign="top">
+                        
+                              <td width="14%"><strong>? </strong></td>
+                              <td width="86%">Matches the preceding character zero or one time. For
+                                example,   "a?ve?" matches the "ve" in "never". </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>.</strong></td>
+                              <td width="86%">Matches any single character except a newline character. </td>
+                            </tr>
+                        
+                            <tr valign="top">
+                              <td width="14%"><strong>(pattern) </strong></td>
+                        
+                              <td width="86%">Matches <em>pattern</em> and remembers the match. The
+                                matched substring can be retrieved from the resulting <strong>Matches</strong> collection,
+                                using Item <strong>[0]...[n]</strong>. To match parentheses characters
+                                ( ), use "\(" or   "\)".</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>(?&lt;name&gt;pattern) </strong></td>
+                        
+                              <td width="86%">Matches <em>pattern</em> and gives the match a name. </td>
+                            </tr>
+                        
+                            <tr valign="top">
+                              <td width="14%"><strong>(?:pattern) </strong></td>
+                        
+                              <td width="86%">A non-capturing group </td>
+                            </tr>
+                                <tr valign="top">
+                              <td width="14%"><strong>(?=...) </strong></td>
+                        
+                              <td width="86%">A positive lookahead  </td>
+                            </tr>
+                                <tr valign="top">
+                              <td width="14%"><strong>(?!...) </strong></td>
+                        
+                              <td width="86%">A negative lookahead </td>
+                            </tr>
+                                <tr valign="top">
+                        
+                              <td width="14%"><strong>(?&lt;=...) </strong></td>
+                        
+                              <td width="86%">A positive lookbehind . </td>
+                            </tr>
+                                <tr valign="top">
+                              <td width="14%"><strong>(?&lt;!...) </strong></td>
+                        
+                              <td width="86%">A negative lookbehind . </td>
+                            </tr>	
+                            <tr valign="top">
+                              <td width="14%"><strong>x|y</strong></td>
+                              <td width="86%">Matches either <em>x</em> or <em>y</em>. For example, "z|wood"   matches "z" or "wood". "(z|w)oo" matches "zoo" or "wood". </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>{<em>n</em>}</strong></td>
+                              <td width="86%"><em>n</em> is a non-negative integer. Matches exactly <em>n</em> times.
+                                For example, "o{2}" does not match the "o" in "Bob," but matches the
+                                first two o's in "foooood".</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>{<em>n</em>,} </strong></td>
+                              <td width="86%"><em>n</em> is a non-negative integer. Matches at least <em>n</em> times.
+                                For example, "o{2,}" does not match the "o" in "Bob" and matches all
+                                the o's in "foooood." "o{1,}" is equivalent to "o+". "o{0,}" is equivalent
+                                to   "o*".</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>{</strong><em>n</em><strong>,</strong><em>m</em><strong>}</strong> </td>
+                              <td width="86%"><em>m</em> and <em>n</em> are non-negative integers. Matches
+                                at least <em>n</em> and at most <em>m</em> times. For example, "o{1,3}" matches
+                                the first three o's in "fooooood." "o{0,1}" is equivalent to "o?".</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>[</strong><em>xyz</em><strong>]</strong> </td>
+                              <td width="86%">A character set. Matches any one of the enclosed characters.
+                                For example, "[abc]" matches the "a" in "plain". </td>
+                            </tr>
+                            <tr valign="top">
+                        
+                              <td width="14%"><strong>[^</strong><em>xyz</em><strong>]</strong> </td>
+                              <td width="86%">A negative character set. Matches any character not enclosed.
+                                For example, "[^abc]" matches the "p" in "plain". </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>[</strong><em>a-z</em><strong>]</strong> </td>
+                        
+                              <td width="86%">A range of characters. Matches any character in the specified
+                                range. For example, "[a-z]" matches any lowercase alphabetic character
+                                in the range "a" through "z". </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>[^</strong><em>m-z</em><strong>]</strong> </td>
+                              <td width="86%">A negative range characters. Matches any character not
+                                in the specified range. For example, "[m-z]" matches any character not
+                                in the range "m"   through "z". </td>
+                            </tr>
+                        
+                            <tr valign="top">
+                              <td width="14%"><strong>\b </strong></td>
+                              <td width="86%">Matches a word boundary, that is, the position between
+                                a word and a space. For example, "er\b" matches the "er" in "never" but
+                                not the "er" in   "verb". </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\B </strong></td>
+                              <td width="86%">Matches a non-word boundary. "ea*r\B" matches the "ear" in   "never
+                                early". </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\d </strong></td>
+                              <td width="86%">Matches a digit character. Equivalent to [0-9]. </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\D </strong></td>
+                        
+                              <td width="86%">Matches a non-digit character. Equivalent to [^0-9]. </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\f </strong></td>
+                              <td width="86%">Matches a form-feed character. </td>
+                            </tr>
+                            <tr valign="top">
+                              <td><strong>\k </strong></td>
+                              <td>A back-reference to a named group. </td>
+                            </tr>    
+                            <tr valign="top">
+                              <td><strong>\n </strong></td>
+                              <td>Matches a newline character. </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\r </strong></td>
+                              <td width="86%">Matches a carriage return character. </td>
+                            </tr>
+                        
+                            <tr valign="top">
+                              <td width="14%"><strong>\s </strong></td>
+                              <td width="86%">Matches any white space including space, tab, form-feed,
+                                etc. Equivalent to "[&nbsp;\f\n\r\t\v]".</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\S </strong></td>
+                        
+                              <td width="86%">Matches any nonwhite space character. Equivalent to   "[^&nbsp;\f\n\r\t\v]". </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\t </strong></td>
+                              <td width="86%">Matches a tab character. </td>
+                            </tr>
+                        
+                            <tr valign="top">
+                              <td width="14%"><strong>\v </strong></td>
+                              <td width="86%">Matches a vertical tab character. </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\w </strong></td>
+                              <td width="86%">Matches any word character including underscore. Equivalent
+                                to   "[A-Za-z0-9_]". </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\W </strong></td>
+                              <td width="86%">Matches any non-word character. Equivalent to "[^A-Za-z0-9_]". </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\num </strong></td>
+                        
+                              <td width="86%">Matches <em>num</em>, where <em>num</em> is a positive
+                                integer. A reference back to remembered matches. For example, "(.)\1" matches
+                                two consecutive identical characters. </td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\<em>n</em></strong></td>
+                        
+                              <td width="86%">Matches <em>n</em>, where <em>n</em> is an octal escape
+                                value. Octal escape values must be 1, 2, or 3 digits long. For example, "\11" and "\011" both
+                                match a tab character. "\0011" is the equivalent of "\001" &amp; "1".
+                                Octal escape values must not exceed 256. If they do, only the first
+                                two digits comprise the expression. Allows ASCII codes to be used in
+                                regular expressions.</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\x<em>n</em></strong></td>
+                        
+                              <td width="86%">Matches <em>n</em>, where <em>n</em> is a hexadecimal
+                                escape value. Hexadecimal escape values must be exactly two digits long.
+                                For example, "\x41"   matches "A". "\x041" is equivalent to "\x04" &amp; "1".
+                                Allows ASCII codes to be used in regular expressions.</td>
+                            </tr>
+                            <tr valign="top">
+                              <td width="14%"><strong>\u<em>n</em></strong></td>
+                        
+                              <td width="86%">Matches a Unicode character expressed in hexadecimal notation with exactly four numeric digits. "\u0200" matches a space character. </td>
+                            </tr>	
+                            <tr valign="top">
+                              <td><strong>\A</strong></td>
+                              <td>Matches the position before the first character in a string. Not affected by the MultiLine setting </td>
+                            </tr>
+                            <tr valign="top">
+                              <td><strong>\Z</strong></td>
+                        
+                              <td>Matches the position after the last character of a string. Not affected by the MultiLine setting. </td>
+                            </tr>
+                            <tr valign="top">
+                              <td><strong>\G</strong></td>
+                              <td>Specifies that the matches must be consecutive, without any intervening non-matching characters. </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        
+                    </div>
+
+                </div>
+            </div>
+             <!-- Theory section 
+             <div  class="row text-center">
+                    <h2>Theory</h2>
+                    <div class="card well text-center">
+    
+                        <div class="card-body well">
+    
+                        </div>
+    
+                    </div>
+                </div>
+            -->
+        </section>
+        <section>
+            <!-- Commands section -->
+
+            <div id="commands" class="row text-center">
+
+                <div class="card well text-center">
+                    <div class="card-header">
+                        <h4></h4>
+                    </div>
+                    <div class="card-body well">
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Template
+            <div class="row text-center">
+
+                    <div class="card well text-center">
+                        <div class="card-header">
+                            <h4></h4>
+                        </div>
+                        <div class="card-body well">
+                            <p></p>
+                        </div>
+    
+                    </div>
+                </div>
+            -->
+        </section>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
