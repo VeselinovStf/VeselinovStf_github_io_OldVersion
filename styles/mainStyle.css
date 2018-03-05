@@ -25,8 +25,7 @@ a {
   
 }
 
-img {
-    width: 220px;
-    height: 140px;
+body {
+	margin-top: 40px;
 }
 
