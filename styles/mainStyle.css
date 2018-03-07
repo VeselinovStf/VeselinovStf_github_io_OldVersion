@@ -266,3 +266,9 @@
     #myCarousel {
         margin-top: 20px;
     }
+
+
+    .modal-body-custom {
+        max-height: 1900px;
+        width: 900px;
+    }
