@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>TELERIK ALPHA PREP .NET 2018</title>
+    <title>APLHA.NET2018PREP</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,706 +10,327 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles/mainStyle.css">
 </head>
+<body>
+    <!-- MENU -->
+    <div id="mySidenav" class="sidenav">
 
-<body style="height:1500px">
-    <div class="container-fluid well">
-        <h2 class="text-center">TELERIK ALPHA IMPORTENT DATES</h2>
-        <div class="table-responsive">
-            <table class="table">
-                <!-- Theme -->
-                <thead>
-                    <tr>
-                        <th>Self-prepare for exam</th>
-                        <th>Practice exams JavaScript</th>
-                        <th>Practice exams C#</th>
-                        <th>Submit CV and cover letter</th>
-                        <th>Entrance Exam</th>
-                        <th>Interview
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>#</td>
-                        <td>#</td>
-                        <td>#</td>
-                        <td>#</td>
-                        <td>#</td>
-                        <td>#</td>
-                    </tr>
-                </tbody>
-
-            </table>
+        <div class="modal-footer justify-content-between">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776;</a>
+            <button type="button" class="btn btn-secondary btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal01">Go To Preparation Schedule</button>
         </div>
+
+
+        <!--HOVER EFFECT -->
+        <div class="hovereffect">
+            <img class="demo cursor img-menu" src="http://www.stevedawson.com/img/i-database.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+            <div class="overlay">
+                <h2>Basic's</h2>
+                <a data-toggle="collapse" data-target="#mod01" class="info" href="#">Details</a>
+            </div>
+        </div>
+
+        <div class="hovereffect">
+            <img class="demo cursor img-menu" src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAwyAAAAJDRlMGQ4MmI2LWUwYTMtNGM5Yi05MmIzLTlkNGZlMDE4MjQwZA.png" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+            <div class="overlay">
+                <h2>OOP</h2>
+                <a data-toggle="collapse" data-target="#mod02" class="info" href="#">Details</a>
+            </div>
+        </div>
+
+        <div class="hovereffect">
+            <img class="demo cursor img-menu" src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAynAAAAJDEzYzA3MGM1LWRiMjctNGM5MS1iM2RhLTMyYzFjNTAyM2U2ZA.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            <div class="overlay">
+                <h2>HQ Programming Code</h2>
+                <a data-toggle="collapse" data-target="#mod03" class="info" href="#">Details</a>
+            </div>
+        </div>
+
+        <div class="hovereffect">
+            <img class="demo cursor img-menu" src="http://www.premiumfreebies.eu/wp-content/uploads/2013/01/Web-Design-260x140.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            <div class="overlay">
+                <h2>Basic Web</h2>
+                <a data-toggle="collapse" data-target="#mod04" class="info" href="#">Details</a>
+            </div>
+        </div>
+
+
+
     </div>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+    <div id="main">
+        <!--MAIN MENU AND WORKING AREA -->
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Telerik Alpha .Net 2018 Prep</span>
+
+        <!-- MAIN CAROUSEL -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="http://www.telerikacademy.com/about/news/details/2017/05/22/telerik-academy-alpha" target="_blank"><img src="http://www.telerikacademy.com/images/default-source/Homepage/telerik_academy_alpha_hp.png?sfvrsn=0" alt="Telerik Academys" style="width:70%;"></a>
+                </div>
+
+                <div class="item">
+                    <a href="http://www.telerikacademy.com/about/news/details/2017/06/28/telerik-academy-alpha-fall" target="_blank"><img src="http://www.telerikacademy.com/images/default-source/Homepage/telerik-academy-alpha-nov.png?sfvrsn=2" alt="Telerik aplha" style="width:70%;"></a>
+                </div>
+
+                <div class="item">
+                   <a href="http://www.my.telerikacademy.com" target="_blank"><img src="http://www.telerikacademy.com/images/default-source/Homepage/telerik-academy-alpha---prepare-for-exam.png?sfvrsn=2" alt="New york" style="width:70%;"></a>
+                </div>
+            </div>
+
+            <!-- Left and right controls
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            -->
+        </div>
+
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
+            <!-- Photo Grid -->
+            <div class="row">
+                <!-- GRID COLUMN -->
+                <div id="mod01" class="collapse column">
+                    <!-- MODAL STARTS BUTTONS -->
+                    <h4 class="text-center">Basics 101</h4>
+                    <div class="container">
+                        <img class="image" src="https://git-scm.com/images/logo@2x.png" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#versionControlModal">Version Control</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div id="mod02" class="collapse column">
+                    <!-- MODAL STARTS BUTTONS -->
+                    <h4 class="text-center">OOP</h4>
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div id="mod03" class="collapse column">
+                    <!-- MODAL STARTS BUTTONS -->
+                    <h4 class="text-center">HQ Programming Code</h4>
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text" data-toggle="modal" data-target="#exampleModal01">Details</div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div id="mod04" class="collapse column">
+                    <!-- MODAL STARTS BUTTONS -->
+                    <h4 class="text-center">Basic WEB</h4>
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-toggle="modal" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-toggle="modal" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-toggle="modal" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <img class="image" src="http://placehold.it/260x140" style="width:100%" data-toggle="modal" data-target="#exampleModal01" data-whatever="@mdo">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SEPARATE MODAL -->
+                <!-- VERSION CONTROL -->
+                <div class="modal fade" id="versionControlModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Version Control</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <!-- MODAL CONTENT -->
+                                <p>Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later</p>
+                                <p>Allows you to revert files back to a previous state</p>
+                                <p>Revert the entire project back to a previous state</p>
+                                <p>Compare changes over time</p>
+                                <p>See who last modified something that might be causing a problem</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <a href="01_VersionControl/index.html" class="btn btn-primary" target="_blank">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF SEPARATE MOAL -->
+
+                <div class="modal fade" id="exampleModal02" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal 02</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">Message:</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="exampleModal03" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal 03</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
                           </button>
-                <a class="navbar-brand" href="#">ALPHA .NET 2018</a>
-
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Basics<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#basic">Themses</a></li>
-                            <li><a href="01_VersionControl/index.html">Version Control</a></li>
-                            <!-- Change hreff to link-->
-                            <li><a href="02_MultidimentionalArrays/multidimentionalArrrays.html">Multidimentional Arrays</a></li>
-                            <li><a href="03_Strings/strings.html">Strings</a></li>
-                            <li><a href="04_RegeX/regex.html">Regex</a></li>
-
-                        </ul>
-                    </li>
-                    <!-- Model for dropdown End-->
-
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">OOP<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#oop">Themses</a></li>
-                            <li><a href="#">Theme 1-1</a></li>
-                            <li><a href="#">Theme 1-2</a></li>
-                            <li><a href="#">Theme 1-3</a></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Advanced<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#advanced">Themses</a></li>
-                            <li><a href="#">Theme 1-1</a></li>
-                            <li><a href="#">Theme 1-2</a></li>
-                            <li><a href="#">Theme 1-3</a></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="dropdown">
-
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">IMPORTANT<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-
-                            <li><a href="https://my.telerikacademy.com/" target="_blank">MY_TELERIK</a></li>
-                            <li><a href="http://my.telerikacademy.com/alpha/javascript-dotnet" target="_blank">ALPHA MAY 18</a></li>
-                            <li><a href="https://www.facebook.com/TelerikAcademy/?hc_ref=ARTC6TZTQseY_CYv9ANBAHlZNn4XHmcv-Hh9MCkUj2IARnM9mUI8D3v8EXkOcdiczl8&fref=nf" target="_blank">FACEBOOK TELERIK</a></li>
-
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">USEFULL<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-
-                            <li><a href="http://judge.telerikacademy.com/" target="_blank">JUDJE</a></li>
-                            <li><a href="http://bgcoder.com/" target="_blank">BG_CODER</a></li>
-                            <li><a href="https://github.com/" target="_blank">GIT_HUB</a></li>
-                            <li><a href="https://www.youtube.com/user/TelerikAcademy/videos?view=0&flow=grid&sort=dd" target="_blank">TELERIK_YT</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#progress">Progress Table</a></li>
-
-                        </ul>
-                    </li>
-                </ul>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">Message:</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-
-    <div class="container-fluid">
-        <section class="well list">
-            <div class="container" id="basic">
-                <!-- MODEL FOR MODULE -->
-                <div class="container">
-                    <div class="row">
-                        <h1>Basic Language Knowledge</h1>
-                        <h4>BASICS</h4>
-                        <div class="col-sm-3 well">
-                            <div class="card">
-                                <img class="card-img-top img-responsive" src="https://git-scm.com/images/logo@2x.png" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title">Git Basics</h4>
-                                    <p class="card-text">VCS basics</p>
-
-
-                                    <a href="01_VersionControl/index.html" class="btn btn-primary">Go To My Prep</a>
-                                    <!-- Cklick this to go to theme -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="card">
-                                <img class="card-img-top img-responsive" src="http://www.techoschool.com/Images/dotnet_arrays.jpg" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title">Arrays</h4>
-                                    <p class="card-text">Arrays are vital for most programming languages. They are collections of variables, which we call elements</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    <a href="http://www.introprogramming.info/intro-csharp-book/read-online/glava7-masivi/" class="btn btn-primary" target="_blank">Info</a>
-
-                                    <a href="02_MultidimentionalArrays/multidimentionalArrrays.html" class="btn btn-primary" target="_blank">Go to My Prep</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 well">
-                            <div class="card">
-
-                                <img class="card-img-top img-responsive" src="https://blog.udemy.com/wp-content/uploads/2014/04/cstring1.png" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title">Strings</h4>
-                                    <p class="card-text">In practice we often come to the text processing: reading text files, searching for keywords and replacing them in a paragraph, validating user input data, etc… In such cases we can save the text content, which we will
-                                        need in strings, and process them using the C# language.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    <a href="http://www.introprogramming.info/intro-csharp-book/read-online/glava7-masivi/" class="btn btn-primary" target="_blank">Info</a>
-
-                                    <a href="03_Strings/strings.html" class="btn btn-primary">Go to My Prep</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="card">
-                                <img class="card-img-top img-responsive" src="https://www.computerhope.com/jargon/r/regular-expression.gif" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title">Regex</h4>
-                                    <p class="card-text">Now consider a regular expression. This is a tiny program. Much like an acorn it contains a processing instruction. It processes text—it replaces and matches text.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    <a href="04_RegeX/regex.html" class="btn btn-primary">Go to My Prep</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="col-sm-3">
-
-                        <div class="card">
-
-                            <img class="card-img-top img-responsive" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <img class="card-img-top img-responsive" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title another</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-
-                            <img class="card-img-top img-responsive" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="card">
-
-                            <img class="card-img-top img-responsive" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- END OF MODULE MODEL -->
-            </div>
-
-
-        </section>
-        <section class="well">
-            <div class="container" id="oop">
-                <div class="row">
-                    <h1>OOP</h1>
-
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in. Aliquam codeply mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <hr>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title another</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-
-                        <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-3">
-                    <div class="card">
-
-                        <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="well">
-            <div class="container" id="advanced">
-
-                <div class="row">
-                    <h1>Advanced</h1>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in. Aliquam codeply mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <hr>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title another</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-
-                        <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-3">
-                    <div class="card">
-
-                        <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-
-
-        </section>
-
-        <section class="well">
-            <div class="container" id="otherUsefull">
-                <!-- MODEL FOR MODULE -->
-                <div class="container">
-                    <div class="row">
-                        <h1>Usefull Themes1</h1>
-                        <h4> THEME 01Demo</h4>
-                        <div class="col-sm-3">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="card">
-
-                                <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in. Aliquam codeply mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="col-sm-3">
-
-                        <div class="card">
-
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title another</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="card">
-
-                            <img class="card-img-top img-fluid" src="http://placehold.it/260x140" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- END OF MODULE MODEL -->
-            </div>
-        </section>
-
-
-
-
-
-        <section id="progress">
-            <div class="container-fluid" style="background-color:#F44336;color:#fff;height:600px;">
-                <div>
-                    <div class="container">
-                        <h2>TELERIK ALPHA PREP FOR MAY 2018</h2>
-                        <p>WORK FLOW AND COMPLETEMENTS</p>
-                        <div class="table-responsive">
-                            <table class="table">
-                                <!-- Theme -->
-                                <thead>
-                                    <tr>
-                                        <th>Course</th>
-                                        <th>TASK</th>
-                                        <th>State</th>
-                                        <th>Start</th>
-                                        <th>End</th>
-                                        <th>Results</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>C# Basic/Advanced</td>
-                                        <td>GitHub</td>
-                                        <td>completed</td>
-                                        <td>1.3.18</td>
-                                        <td>1.3.18</td>
-                                        <td>updated</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td>Multidimentional Arrays</td>
-                                        <td>completed/ Do some exercises</td>
-                                        <td>2.3.18</td>
-                                        <td>2.3.18</td>
-                                        <td>updated</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td>Strings</td>
-                                        <td>on work</td>
-                                        <td>3.3.18</td>
-                                        <td>3.3.18</td>
-                                        <td>nead recap</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td>Regex</td>
-                                        <td>on work</td>
-                                        <td>3.3.18</td>
-                                        <td>3.3.18</td>
-                                        <td>nead recap</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td>Exceptions</td>
-                                        <td>on work</td>
-                                        <td>4.3.18</td>
-                                        <td>4.3.18</td>
-                                        <td>#</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td>Files and Streams</td>
-                                        <td>on work</td>
-                                        <td>4.3.18</td>
-                                        <td>4.3.18</td>
-                                        <td>#</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td>Methods</td>
-                                        <td>on work</td>
-                                        <td>5.3.18</td>
-                                        <td>5.3.18</td>
-                                        <td>#</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td>End Of C# Advanced EXAMS</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td>OOP Basic/Advanced/DSA/</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td>Web Development/JS/HTML/CSS/DataBase Basic</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
-    <script src="scripts/scrollSpy.js"></script>
+
+  
+    <script src="scripts/myScripts.js"></script>
 </body>
 
 </html>
