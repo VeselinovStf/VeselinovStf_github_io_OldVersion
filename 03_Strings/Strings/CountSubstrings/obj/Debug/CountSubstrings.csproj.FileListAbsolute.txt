@@ -1,7 +1,0 @@
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CountSubstrings\bin\Debug\CountSubstrings.exe.config
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CountSubstrings\bin\Debug\CountSubstrings.exe
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CountSubstrings\bin\Debug\CountSubstrings.pdb
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CountSubstrings\obj\Debug\CountSubstrings.csprojResolveAssemblyReference.cache
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CountSubstrings\obj\Debug\CountSubstrings.csproj.CoreCompileInputs.cache
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CountSubstrings\obj\Debug\CountSubstrings.exe
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CountSubstrings\obj\Debug\CountSubstrings.pdb

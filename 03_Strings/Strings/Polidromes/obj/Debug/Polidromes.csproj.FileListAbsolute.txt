@@ -1,7 +1,0 @@
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\Polidromes\bin\Debug\Polidromes.exe.config
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\Polidromes\bin\Debug\Polidromes.exe
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\Polidromes\bin\Debug\Polidromes.pdb
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\Polidromes\obj\Debug\Polidromes.csprojResolveAssemblyReference.cache
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\Polidromes\obj\Debug\Polidromes.csproj.CoreCompileInputs.cache
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\Polidromes\obj\Debug\Polidromes.exe
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\Polidromes\obj\Debug\Polidromes.pdb

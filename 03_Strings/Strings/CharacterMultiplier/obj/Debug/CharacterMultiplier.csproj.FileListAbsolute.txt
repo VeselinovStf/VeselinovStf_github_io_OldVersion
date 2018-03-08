@@ -1,7 +1,0 @@
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CharacterMultiplier\bin\Debug\CharacterMultiplier.exe.config
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CharacterMultiplier\bin\Debug\CharacterMultiplier.exe
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CharacterMultiplier\bin\Debug\CharacterMultiplier.pdb
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CharacterMultiplier\obj\Debug\CharacterMultiplier.csprojResolveAssemblyReference.cache
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CharacterMultiplier\obj\Debug\CharacterMultiplier.csproj.CoreCompileInputs.cache
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CharacterMultiplier\obj\Debug\CharacterMultiplier.exe
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\CharacterMultiplier\obj\Debug\CharacterMultiplier.pdb

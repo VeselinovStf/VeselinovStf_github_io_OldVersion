@@ -1,7 +1,0 @@
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\ReverseNumbers\bin\Debug\ReverseNumbers.exe.config
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\ReverseNumbers\bin\Debug\ReverseNumbers.exe
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\ReverseNumbers\bin\Debug\ReverseNumbers.pdb
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\ReverseNumbers\obj\Debug\ReverseNumbers.csprojResolveAssemblyReference.cache
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\ReverseNumbers\obj\Debug\ReverseNumbers.csproj.CoreCompileInputs.cache
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\ReverseNumbers\obj\Debug\ReverseNumbers.exe
-H:\Telerik_Alpha_NET_Prep\MY_LOCAL_PREP\03_Strings\Strings\ReverseNumbers\obj\Debug\ReverseNumbers.pdb
